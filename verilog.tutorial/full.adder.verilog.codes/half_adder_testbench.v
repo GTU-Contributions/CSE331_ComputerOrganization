@@ -1,0 +1,23 @@
+module half_adder_testbench(); 
+reg a, b;
+wire sum, carry_out;
+
+half_adder hatb (sum, carry_out, a, b);
+
+initial begin
+a = 1'b0; b = 1'b0;
+#20;
+a = 1'b1; b = 1'b0;
+#20;
+a = 1'b0; b = 1'b1;
+#20;
+a = 1'b1; b = 1'b1;
+end
+ 
+ 
+initial
+begin
+$monitor("time = %2d, a =%1b, b=%1b, sum=%1b, carry_out=%1b", $time, a, b, sum, carry_out);
+end
+ 
+endmodule

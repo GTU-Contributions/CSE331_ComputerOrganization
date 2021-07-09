@@ -1,0 +1,44 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do project03_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/project03 {C:/Users/Administrator/Desktop/project03/mips_core.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mips_core
+# ** Warning: C:/Users/Administrator/Desktop/project03/mips_core.v(32): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	mips_core
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/project03 {C:/Users/Administrator/Desktop/project03/ALUcontrol.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALUcontrol
+# 
+# Top level modules:
+# 	ALUcontrol
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/project03 {C:/Users/Administrator/Desktop/project03/bit1_2to1_mux.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bit1_2to1_mux
+# 
+# Top level modules:
+# 	bit1_2to1_mux
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/project03 {C:/Users/Administrator/Desktop/project03/bit1_alu.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bit1_alu
+# 
+# Top level modules:
+# 	bit1_alu
+# vlog -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/project03 {C:/Users/Administrator/Desktop/project03/bit1_aluMSB.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bit1_aluMSB
+# 
+# Top level modules:
+# 	bit1_aluMSB

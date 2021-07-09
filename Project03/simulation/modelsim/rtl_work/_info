@@ -1,0 +1,107 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrator\Desktop\project03\simulation\modelsim
+vALUcontrol
+Ib6OO>nV5KNMU^NZ4dhF373
+V`AO0[4l=YJoSN`PN7LbD<0
+Z1 dC:\Users\Administrator\Desktop\project03\simulation\modelsim
+w1483063025
+8C:/Users/Administrator/Desktop/project03/ALUcontrol.v
+FC:/Users/Administrator/Desktop/project03/ALUcontrol.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/Administrator/Desktop/project03 -O0
+n@a@l@ucontrol
+!i10b 1
+!s100 5SG]Z@N^XD;VY69_@g]zT0
+!s85 0
+!s108 1483204697.468000
+!s107 C:/Users/Administrator/Desktop/project03/ALUcontrol.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/project03|C:/Users/Administrator/Desktop/project03/ALUcontrol.v|
+!s101 -O0
+vbit1_2to1_mux
+I3ZT7;ei6TdVBjS@gCzE2P2
+V3J3MzP5;`?VObS083W3A82
+R1
+w1483063130
+8C:/Users/Administrator/Desktop/project03/bit1_2to1_mux.v
+FC:/Users/Administrator/Desktop/project03/bit1_2to1_mux.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 0Qc:=gIQGGo^X^h5=>Nd41
+!s85 0
+!s108 1483204697.658000
+!s107 C:/Users/Administrator/Desktop/project03/bit1_2to1_mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/project03|C:/Users/Administrator/Desktop/project03/bit1_2to1_mux.v|
+!s101 -O0
+vbit1_alu
+I4K`doW;@ND8OmKlg][OQE1
+VfT<lRCYYnoPd25<`SJmz62
+R1
+w1483063152
+8C:/Users/Administrator/Desktop/project03/bit1_alu.v
+FC:/Users/Administrator/Desktop/project03/bit1_alu.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 VV3bXgb=XS8MU=8gE3ooh0
+!s85 0
+!s108 1483204697.913000
+!s107 C:/Users/Administrator/Desktop/project03/bit1_alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/project03|C:/Users/Administrator/Desktop/project03/bit1_alu.v|
+!s101 -O0
+vbit1_aluMSB
+!i10b 1
+!s100 E_XfT4^GC[JjcFnhgoQ1K2
+Ija:k;Koom7ZnWj`KgPhc>2
+VA7zniXUIDeVQPUo4YO_7K2
+R1
+w1483063181
+8C:/Users/Administrator/Desktop/project03/bit1_aluMSB.v
+FC:/Users/Administrator/Desktop/project03/bit1_aluMSB.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1483204698.057000
+!s107 C:/Users/Administrator/Desktop/project03/bit1_aluMSB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/project03|C:/Users/Administrator/Desktop/project03/bit1_aluMSB.v|
+!s101 -O0
+R3
+R4
+nbit1_alu@m@s@b
+vmips_core
+IGMWgAYj_z<oCIfZOMNGNa0
+V]5e]5Fm_HE?Q43[W4<FWn3
+R1
+w1483201649
+8C:/Users/Administrator/Desktop/project03/mips_core.v
+FC:/Users/Administrator/Desktop/project03/mips_core.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 kXE:m]4BkzJFCB>L@:FDL0
+!s85 0
+!s108 1483204697.065000
+!s107 C:/Users/Administrator/Desktop/project03/mips_core.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Administrator/Desktop/project03|C:/Users/Administrator/Desktop/project03/mips_core.v|
+!s101 -O0

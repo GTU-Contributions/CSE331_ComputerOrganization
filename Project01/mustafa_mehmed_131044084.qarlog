@@ -1,0 +1,32 @@
+Quartus II Archive log --	C:/altera/13.1/output_files/mustafa_mehmed_131044084.qarlog
+
+Archive:	C:/altera/13.1/output_files/mustafa_mehmed_131044084.qar
+Date:		Fri Oct 21 15:03:46 2016
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/altera/13.1/workspace/Project-1-CSE331.qpf
+C:/altera/13.1/workspace/Project-1-CSE331.qsf
+C:/altera/13.1/workspace/db/Project-1-CSE331.cmp.hdb
+C:/altera/13.1/workspace/db/Project-1-CSE331.db_info
+C:/altera/13.1/workspace/incremental_db/compiled_partitions/Project-1-CSE331.db_info
+C:/altera/13.1/workspace/project01.v
+C:/altera/13.1/workspace/project01_demo.v
+C:/altera/13.1/workspace/project01_testbench.v
+c:/altera/13.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 9 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Sun Dec 25 11:07:06 2016
+Source archive file:	H:/- MEHMED/-  GTU/3. Sinif/1. BIL331 Bilgisayar Organizasyonu - 5-4 credits/- Projects/Proje01/mustafa_mehmed_131044084.qar
+Archive was extracted into	H:/- MEHMED/-  GTU/3. Sinif/1. BIL331 Bilgisayar Organizasyonu - 5-4 credits/- Projects/Proje01/mustafa_mehmed_131044084_restored/
+		 - successfully.
+
+
+******* Archived project restoration attempt on Sun Dec 25 11:34:37 2016
+Source archive file:	H:/- MEHMED/-  GTU/3. Sinif/1. BIL331 Bilgisayar Organizasyonu - 5-4 credits/- Projects/Proje01/mustafa_mehmed_131044084.qar
+Archive was extracted into	H:/- MEHMED/-  GTU/3. Sinif/1. BIL331 Bilgisayar Organizasyonu - 5-4 credits/- Projects/Proje01/mustafa_mehmed_131044084_restored/
+		 - successfully.

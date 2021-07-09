@@ -1,0 +1,9 @@
+module ProgramCounter(PC, clock);
+	inout clock;
+	output reg [31:0]PC;
+	
+	initial pc
+
+
+
+endmodule

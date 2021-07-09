@@ -1,0 +1,106 @@
+DALUA - Desired ALU action
+ALUctrlIn - ALU control input
+
+R-type
+op rs rt rd shamt funct
+6  5  5  5  5     6
+
+12 Total instructions
+Format:	Name:	OP(6):	FUNCT:	ALUop:	DALUA:	ALUctrIn:
++R	sll	000000	000000		sht+		
++R	srl	000000	000010		sht+	
+R	jr	000000	001000		XXX	
++R	add 	000000	100000		add+	
+R	addu	000000	100001		addu+	
+R	sub	000000	100010		sub+	
+R	subu	000000	100011		subu+	
++R	and	000000	100100		and+	
+R	or	000000	100101		or+	
++R	nor	000000	100111		nor+	
++R	slt	000000	101010		slt+	
++R	sltu	000000	101011		sltu+	
+
+I-type
+op rs rt immed
+6  5  5  16
+
+15 Total instructions
+Format:	Name:	OP(6):	FUNCT:	ALUop:	DALUA:	ALUctrIn:
++I	beq	000100	XXXXXX		sub+	
++I	bne	000101	XXXXXX		sub+	
++I	addi	001000	XXXXXX		add+	
+I	addiu	001001	XXXXXX		addu+		
++I	slti	001010	XXXXXX		slt+	
+I	sltiu	001011	XXXXXX		sltu+	
++I	andi	001100	XXXXXX		and+	
+I	ori	001101	XXXXXX		or+	
++I	lui	001111	XXXXXX		XXX
++I	lw	100011	XXXXXX		add+	
+I	lbu	100100	XXXXXX		add+	
+I	lhu	100101	XXXXXX		add+	
+I	sb	101000	XXXXXX		add+	
+I	sh	101001	XXXXXX		add+	
++I	sw	101011	XXXXXX		add+	
+
+J-type
+op address
+6  26
+
+2 Total instructions
+Format:	Name:	OP(6):	FUNCT:	ALUop:	DALUA:	ALUctrIn:
++J	j	000010	XXXXXX		XXX+	
+J	jal	000011	XXXXXX		XXX	
+
+MAIN CONTROL
+Inst	RegDes  ALUSrc MemtoReg RegWr MemRd MemWr B J S Op3 Op2 Op1 Op0
+sll	1	0      0	1     0     0     0 0 1 1   0   0   0
+srl	1	0      0	1     0     0     0 0 1 1   0   0   1
+add	1	0      0        1     0     0     0 0 0 0   0   1   0
+addu	1	0      0        1     0     0     0 0 0 1   0   1   0
+and	1	0      0        1     0     0     0 0 0 0   0   0   0
+or	1	0      0        1     0     0     0 0 0 0   0   0   1
+nor	1	0      0        1     0     0     0 0 0 0   1   0   1
+sub	1	0      0        1     0     0     0 0 0 0   1   1   0
+subu    1       0      0        1     0     0     0 0 0 1   1   1   0
+slt	1	0      0        1     0     0     0 0 0 0   1   1   1
+sltu	1	0      0        1     0     0     0 0 0 1   1   1   1
+addi    0       1      0        1     0     0     0 0 0 0   0   1   0
+addiu   0       1      0        1     0     0     0 0 0 1   0   1   0
+andi	0	1      0        1     0     0     0 0 0 0   0   0   0
+ori	0	1      0        1     0     0     0 0 0 0   0   0   1
+slti	0	1      0        1     0     0     0 0 0 0   1   1   1
+sltiu	0       1      0        1     0     0     0 0 0 1   0   0   0
+lui	0	1      0        1     0     0     0 0 0 X   X   X   X
+lw	0	1      1        1     1     0     0 0 0 0   0   1   0
+lbu	0	1      1        1     1     0     0 0 0 0   0   1   0
+lhu	0	1      1	1     1     0     0 0 0 0   0   1   0
+sb	X	1      X        0     0     1     0 0 0 0   0   1   0
+sh   	X	1      X        0     0     1     0 0 0 0   0   1   0
+sw	X	1      X        0     0     1     0 0 0 0   0   1   0	
+beq     X	0      X        0     0     0     1 0 0 0   1   1   0
+bne	X	0      X        0     0     0     1 0 0 0   1   1   0
+j	X	X      X        0     0     0     0 1 0 X   X   X   X
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
