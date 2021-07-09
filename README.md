@@ -11,6 +11,6 @@ Course Book: Computer Organization and Design (The hardware / software interface
 
 * Project 1: Structural Verilog & FPGA Programming
 
-* Project 2: MIPS Assembler
+* Project 2: MIPS Assembler with C++
 
 * Project 3: Implementation of a Single Cycle MIPS CPU with Verilog
