@@ -5,7 +5,7 @@ Projects - Fall 2016
 
 Instructor: Alp Arslan Bayrakci
 
-Course Book: Computer Organization and Design (The hardware / software interface)4th Ed. by David A. Patterson
+Course Book: Computer Organization and Design (The hardware / software interface) 4th Ed. by David A. Patterson
 
 ## Projects:
 
