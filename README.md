@@ -3,7 +3,7 @@ Gebze Technical University
 
 Projects - Fall 2016
 
-Instructor: Alp Arslan Bayrakci
+Instructor: Dr. Alp Arslan Bayrakci
 
 Course Book: Computer Organization and Design (The hardware / software interface) 4th Ed. by David A. Patterson
 
